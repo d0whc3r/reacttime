@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-git commit -am "$@"
+git add .
+git commit -m "$@" &&
 git push
