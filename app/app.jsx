@@ -5,10 +5,10 @@ var Main = require('Main');
 var Countdown = require('Countdown');
 var Timer = require('Timer');
 
-require('style!css!foundation-sites/dist/css/foundation.css');
-$(function () {
-    $(document).foundation();
-});
+// require('style!css!foundation-sites/dist/css/foundation.css');
+// $(function () {
+$(document).foundation();
+// });
 
 // App scss
 require('style!css!sass!applicationStyles');
